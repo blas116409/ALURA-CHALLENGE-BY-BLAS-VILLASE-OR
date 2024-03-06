@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>ENCRIPTADOR BY BLAS</title>
+  <link rel="stylesheet" href="style-encriptador.css">
+
+  <h1 class="titulo">ENCRIPTADOR</h1>
+</head>
+
+<body>
+  <main class="CAJAS_GENERALES">
+    <section class="caja_1">
+      <form action="">
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui (No usar mayusculas , ni signos)">
+        <input class="btn" type="button" value="Encriptar" id="btn-encriptar">
+        
+        <input class="btn" type="button" value="Desencriptar" id="btn-desencriptar"> 
+      </form>
+    </section>
+
+    <section class="caja_2">
+      <h1 class="titulo" >RESULTADO</h1>
+      <input class="text-input-salida" type="text" id="msg" readonly="readonl" name="contenido">
+      <button id="btn-copiar" onclick="copytext()" class="btn">Copiar</button>
+      
+    </section>  
+  </main>
+
+  <script src="ENCRI.js"></script>
+</body>
+<footer>
+  <img id= "imagen-footer"src="IMAGENES/LOGO-BLASV.png" height="20%" width="40%" >
+  <p class="copyright">&copy Copyright Blas Villaseñor - 2023</p>
+</footer>
+</html>
+
